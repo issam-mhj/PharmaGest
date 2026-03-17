@@ -1,0 +1,60 @@
+[
+  {
+    "model": "categories.categorie",
+    "pk": 1,
+    "fields": {
+      "nom": "Antibiotique",
+      "description": "Traitement des infections bactériennes.",
+      "date_creation": "2026-01-01T09:00:00Z",
+      "date_modification": "2026-01-01T09:00:00Z"
+    }
+  },
+  {
+    "model": "categories.categorie",
+    "pk": 2,
+    "fields": {
+      "nom": "Antalgique",
+      "description": "Gestion de la douleur et de la fièvre.",
+      "date_creation": "2026-01-01T09:00:00Z",
+      "date_modification": "2026-01-01T09:00:00Z"
+    }
+  },
+  {
+    "model": "medicaments.medicament",
+    "pk": 1,
+    "fields": {
+      "nom": "Amoxicilline",
+      "dci": "Amoxicilline",
+      "categorie": 1,
+      "forme": "Comprimé",
+      "dosage": "500mg",
+      "prix_achat": "8.00",
+      "prix_vente": "12.50",
+      "stock_actuel": 120,
+      "stock_minimum": 20,
+      "date_expiration": "2027-12-31",
+      "ordonnance_requise": true,
+      "date_creation": "2026-01-01T09:00:00Z",
+      "est_actif": true
+    }
+  },
+  {
+    "model": "medicaments.medicament",
+    "pk": 2,
+    "fields": {
+      "nom": "Doliprane",
+      "dci": "Paracétamol",
+      "categorie": 2,
+      "forme": "Comprimé",
+      "dosage": "1000mg",
+      "prix_achat": "3.00",
+      "prix_vente": "5.50",
+      "stock_actuel": 15,
+      "stock_minimum": 20,
+      "date_expiration": "2027-08-30",
+      "ordonnance_requise": false,
+      "date_creation": "2026-01-01T09:00:00Z",
+      "est_actif": true
+    }
+  }
+]
