@@ -1,0 +1,9 @@
+# <type>(<scope>): <description>
+#
+# Types:
+# feat, fix, docs, refactor, test, chore, build, ci
+#
+# Examples:
+# feat(medicaments): add stock alerts endpoint
+# fix(ventes): restore stock on cancellation
+# docs(repo): add contribution guidelines
