@@ -1,0 +1,12 @@
+# Default reviewers
+* @smartholol-team
+
+# Backend ownership
+/backend/ @smartholol-backend
+
+# Frontend ownership
+/frontend/ @smartholol-frontend
+
+# Repo governance
+/.github/ @smartholol-team
+/docs/ @smartholol-team
