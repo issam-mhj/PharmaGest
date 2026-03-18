@@ -55,6 +55,14 @@ Application de gestion de pharmacie (MVP) selon les standards SMARTHOLOL.
 - Swagger UI : `http://localhost:8000/api/schema/swagger-ui/`
 - Détails endpoints + scénarios : [docs/api-endpoints.md](docs/api-endpoints.md)
 
+## Bonus implémentés
+
+- JWT auth (SimpleJWT) :
+	- `POST /api/v1/auth/token/`
+	- `POST /api/v1/auth/token/refresh/`
+	- `GET /api/v1/auth/me/` (protégé)
+- CI GitHub Actions : [workflow CI](.github/workflows/ci.yml)
+
 ## Plan global
 
 Le plan d'exécution détaillé du projet se trouve dans [PROJECT_TODO.md](PROJECT_TODO.md).

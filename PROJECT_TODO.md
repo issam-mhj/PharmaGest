@@ -84,11 +84,11 @@
 - [x] Préparer démonstration fonctionnelle (Swagger + UI)
 
 ## 12) Bonus (optionnel)
-- [ ] JWT auth (`simplejwt`).
+- [x] JWT auth (`simplejwt`).
 - [ ] Filtres avancés (`django-filter`).
 - [ ] Export CSV (inventaire/ventes).
 - [ ] Docker Compose full stack.
-- [ ] CI (lint, tests) sur push/PR.
+- [x] CI (lint, tests) sur push/PR.
 
 ---
 

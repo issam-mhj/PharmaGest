@@ -15,6 +15,12 @@ Ce document résume les endpoints principaux et les scénarios fonctionnels à t
 - `PATCH /api/v1/categories/{id}/`
 - `DELETE /api/v1/categories/{id}/`
 
+## Auth JWT
+
+- `POST /api/v1/auth/token/`
+- `POST /api/v1/auth/token/refresh/`
+- `GET /api/v1/auth/me/` (requiert un header `Authorization: Bearer <access_token>`)
+
 ## Médicaments
 
 - `GET /api/v1/medicaments/`
